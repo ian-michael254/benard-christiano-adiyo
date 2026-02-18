@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme{
+  --color-secondary-dark:#061E29;
+  --color-secondary-light:#1D546D;
+  --color-primary-light:#F3F4F4;
+  --color-primary-dark:#5F9598;
+  --font-primary: "IBMPlexSans", sans-serif;
+  --font-secondary:"InterBureauBold", sans-serif;
+}
+
+/* custom styles here */
+
+@layer base {
+ 
+  /* custom base styles here */
+  @font-face {
+    font-family:"IBMPlexSans"; ;
+    src: url(/fonts/IbmPlexMonoLight-g8Z6.otf) format("opentype");
+  }
+  @font-face {
+    font-family: "InterBureauBold";
+    src: url(/fonts/InterBureauBold-ZDKl.otf) format("opentype");
+  }
+}
