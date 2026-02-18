@@ -1,8 +1,11 @@
-
+import Header from './components/Header'
 
 const App = () => {
   return (
-    <div className='bg-primary text-violet-900 rounded-md text-center text-5xl font-secondary'>App</div>
+    <div className='bg-secondary-dark text-primary-light min-h-screen'>
+      <Header />
+
+    </div>
   )
 }
 
