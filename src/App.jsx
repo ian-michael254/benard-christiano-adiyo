@@ -1,8 +1,14 @@
-import React from 'react'
+import Navbar from "./layout/Navbar"
 
 const App = () => {
   return (
-    <div className='bg-purple-600 text-slate-200 font-bold text-4xl text-center'>App</div>
+    <div className='min-h-screen overflow-x-hidden'>
+      <Navbar />
+
+      <main>
+
+      </main>
+    </div>
   )
 }
 
